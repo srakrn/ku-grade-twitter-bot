@@ -45,8 +45,8 @@ def main():
     while True:
         try:
             f = open("ku20.html", "r")
-            if changed(f.read(), ku20_html):
-                api.update_status("@srakrn [BOT] เกรดออก cc @merunne_ @AyumiizZ @seashellx_")
+            if changed(f.read(), process_html(ku20_html)):
+                api.update_status("@srakrn @merunne_ @AyumiizZ @seashellx_ [BOT] เกรดออก ({})".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
                 print("Changes found.")
         except OSError:
             print("First pulling.")
