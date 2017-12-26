@@ -4,7 +4,7 @@ This is a Twitter bot notifying fot the grade announcement via Kasetsart Univers
 
 ## Credits
 
-The core of this bot (KU-Regis fetching system) is heavily modified from [mameaw14/ku-check-grade](https://github.com/mameaw14/ku-check-grade/). All credit goes to [@Mameaw14](https://twitter.com/Mameaw14).
+The core of this bot (KU-Regis fetching system at `kuregis.py`) is heavily modified from [mameaw14/ku-check-grade](https://github.com/mameaw14/ku-check-grade/). All credit goes to [@Mameaw14](https://twitter.com/Mameaw14).
 
 ## Usage
 
@@ -19,3 +19,7 @@ and then set up the following login credentials at `credentials.py`:
 * Twitter credentials (both for app and account)
 
 After that, run `notify.py` in the background (we recommends `nohup` or `screen`.)
+
+## License
+
+All rights reserved.
